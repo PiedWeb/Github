@@ -1,3 +1,7 @@
+<p align="center"><a href="https://dev.piedweb.com">
+<img src="https://raw.githubusercontent.com/PiedWeb/piedweb-devoluix-theme/master/src/img/logo_title.png" width="200" height="200" alt="Open Source Package" />
+</a></p>
+
 # Github Meta Data Repo Extractor
 
 [![Latest Version](https://img.shields.io/github/tag/PiedWeb/Github.svg?style=flat&label=release)](https://github.com/PiedWeb/Github/tags)
