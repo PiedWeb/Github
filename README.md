@@ -5,7 +5,7 @@
 # Github Meta Data Repo Extractor
 
 [![Latest Version](https://img.shields.io/github/tag/PiedWeb/Github.svg?style=flat&label=release)](https://github.com/PiedWeb/Github/tags)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/PiedWeb/Github/LICENSE.md)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/PiedWeb/Github/LICENSE)
 [![Build Status](https://img.shields.io/travis/PiedWeb/Github/master.svg?style=flat)](https://travis-ci.org/PiedWeb/Github)
 [![Quality Score](https://img.shields.io/scrutinizer/g/PiedWeb/Github.svg?style=flat)](https://scrutinizer-ci.com/g/PiedWeb/Github)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/PiedWeb/Github.svg?style=flat)](https://scrutinizer-ci.com/g/PiedWeb/Github/code-structure)
@@ -53,7 +53,7 @@ Please see [contributing](https://dev.piedweb.com/contributing)
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 [![Latest Version](https://img.shields.io/github/tag/PiedWeb/Github.svg?style=flat&label=release)](https://github.com/PiedWeb/Github/tags)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/PiedWeb/Github/LICENSE.md)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/PiedWeb/Github/LICENSE)
 [![Build Status](https://img.shields.io/travis/PiedWeb/Github/master.svg?style=flat)](https://travis-ci.org/PiedWeb/Github)
 [![Quality Score](https://img.shields.io/scrutinizer/g/PiedWeb/Github.svg?style=flat)](https://scrutinizer-ci.com/g/PiedWeb/Github)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/PiedWeb/Github.svg?style=flat)](https://scrutinizer-ci.com/g/PiedWeb/Github/code-structure)
