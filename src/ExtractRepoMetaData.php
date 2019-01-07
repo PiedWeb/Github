@@ -52,7 +52,7 @@ class ExtractRepoMetaData
      */
     public function getStars(): ?string
     {
-        $findStars = $this->getDom()->find('[href='.str_replace('https://github.com', '', $this->url).'/stargazers]', 0);
+        $findStars = $this->getDom()->find('[href='.$this->getRepo().'/stargazers]', 0);
 
         return $findStars ? trim($findStars->plaintext) : null;
     }
@@ -63,5 +63,13 @@ class ExtractRepoMetaData
     public function getName(): string
     {
         return is_int($this->name) ? preg_replace('@https://github.com/[^/]+/@si', '', $this->url) : $this->name;
+    }
+
+    /**
+     * @return string
+     */
+    public function getRepo(): string
+    {
+        return str_replace('https://github.com', '', $this->url);
     }
 }

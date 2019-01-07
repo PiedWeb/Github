@@ -25,6 +25,7 @@ $github = new ExtractRepoMetaData('https://github.com/PiedWeb/CMS');
 $github->getName()        // @return string
 $github->getDescription() // @return string
 $github->getStars()       // @return string
+$github->getRepo()        // @return string eg. PiedWeb/CMS
 ```
 
 ## Testing
