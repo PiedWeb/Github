@@ -2,16 +2,18 @@
 
 namespace PiedWeb\Github;
 
-use \rOpenDev\curl\CurlRequest;
+use rOpenDev\curl\CurlRequest;
 use simple_html_dom;
 
 class ExtractRepoMetaData
 {
-    private $dom, $url, $name;
+    private $dom;
+    private $url;
+    private $name;
 
     public function __construct(string $url, $name = 0)
     {
-        $this->url  = $url;
+        $this->url = $url;
         $this->name = $name;
     }
 
@@ -20,7 +22,7 @@ class ExtractRepoMetaData
      */
     private function getDom()
     {
-        if ($this->dom === null) {
+        if (null === $this->dom) {
             $request = new CurlRequest($this->url);
             $request->setDefaultGetOptions()->setReturnHeader()->setDestkopUserAgent()->setEncodingGzip();
             $output = $request->execute();
@@ -40,7 +42,7 @@ class ExtractRepoMetaData
      */
     public function getDescription(): string
     {
-         $findDescription = $this->getDom()->find('[itemprop=about]', 0);
+        $findDescription = $this->getDom()->find('[itemprop=about]', 0);
 
         return $findDescription ? $findDescription->plaintext : '';
     }
