@@ -30,6 +30,7 @@ $github->getName()        // @return string
 $github->getDescription() // @return string
 $github->getStars()       // @return string
 $github->getRepo()        // @return string eg. PiedWeb/CMS
+$github->getUrl()        // @return string
 ```
 
 ## Testing

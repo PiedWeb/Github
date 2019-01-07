@@ -72,4 +72,12 @@ class ExtractRepoMetaData
     {
         return str_replace('https://github.com', '', $this->url);
     }
+
+    /**
+     * @return string
+     */
+    public function getUrl(): string
+    {
+        return $this->url;
+    }
 }
