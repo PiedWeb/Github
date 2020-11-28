@@ -42,7 +42,7 @@ class ExtractRepoMetaData
      */
     public function getDescription(): string
     {
-        $findDescription = $this->getDom()->find('[itemprop=about]', 0);
+        $findDescription = $this->getDom()->find('p.f4', 0);
 
         return $findDescription ? $findDescription->plaintext : '';
     }
